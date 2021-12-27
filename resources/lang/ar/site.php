@@ -67,6 +67,7 @@ return [
     'price' => 'السعر',
     'sale_price' => 'سعر البيع',
     'stock' => 'المخزن',
+    'phone.0 ' =>'الهاتف',
     'profit_percent' => 'المكسب',
 
     'ar' => [

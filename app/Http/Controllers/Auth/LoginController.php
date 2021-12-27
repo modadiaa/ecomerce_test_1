@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
+use App\Providers\RouteServiceProvider;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
@@ -25,7 +26,10 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/dashboard/index';
+    //protected $redirectTo = RouteServiceProvider::HOME;
+
+    protected $redirectTo = '/';
+
 
     /**
      * Create a new controller instance.
